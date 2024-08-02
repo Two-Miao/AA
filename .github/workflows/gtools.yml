@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix: # [windows-2019, macos-11, ubuntu-latest]
         platform: [windows-2019]
-        go-version: [1.19.2]
+        go-version: [1.22.5]
     runs-on: ${{ matrix.platform }}
     steps:
       - uses: actions/checkout@v3
